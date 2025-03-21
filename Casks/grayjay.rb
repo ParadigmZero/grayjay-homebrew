@@ -10,7 +10,5 @@ cask "grayjay" do
 
   zap trash: [
     "~/Library/Application Support/Grayjay",
-    "~/Library/Caches/Grayjay",
-    "~/Library/Preferences/app.grayjay.plist"
   ]
 end 
