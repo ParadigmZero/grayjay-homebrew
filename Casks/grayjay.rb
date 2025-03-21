@@ -5,7 +5,8 @@ cask "grayjay" do
   name "Grayjay desktop alpha"
   desc "A modern video player for various platforms (alpha)"
   homepage "https://grayjay.app/desktop/"
-  container nested: "Grayjay.Desktop-osx-arm64.zip"
+  
+  container type: :zip
   app "Grayjay.app"
 
   zap trash: [
