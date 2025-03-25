@@ -1,6 +1,6 @@
 # Grayjay Unofficial Homebrew Tap
 
-This is an unofficial Homebrew tap for the Grayjay desktop application on macos Apple Silicon.
+This is an unofficial Homebrew tap for the Grayjay desktop application, for macOS (Apple Silicon or Intel).
 
 ## What is Grayjay?
 
@@ -13,13 +13,13 @@ Think of a "tap" like a package repository.
 Add tap ( add tap to Homebrew):
 
 ```bash
-brew tap ParadigmZero/homebrew-grayjay-unofficial-homebrew-tap
+brew tap ParadigmZero/homebrew-grayjay-tap
 ```
 
 remove tap ( remove tap from Homebrew):
 
 ```bash
-brew untap ParadigmZero/homebrew-grayjay-unofficial-homebrew-tap
+brew untap ParadigmZero/homebrew-grayjay-tap
 ```
 
 update tap
@@ -50,3 +50,7 @@ brew upgrade
 brew remove grayjay
 ```
 
+# Resources
+
+Official GrayJay desktop repository
+<https://github.com/futo-org/Grayjay.Desktop>
